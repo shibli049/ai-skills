@@ -1,6 +1,6 @@
 {
   "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
-  "name": "ai-skills",
+  "name": "shibli049",
   "description": "Engineering-standards skills for AI coding assistants, starting with Java Spring Boot microservices (TDD, DDD, clean code, security, performance, avoiding over-engineering).",
   "version": "1.0.0",
   "author": {

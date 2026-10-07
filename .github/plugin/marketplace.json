@@ -10,8 +10,8 @@
   },
   "plugins": [
     {
-      "name": "ai-skills",
-      "source": "plugins/ai-skills",
+      "name": "shibli049",
+      "source": "plugins/shibli049",
       "description": "Engineering-standards skills for AI coding assistants, starting with Java Spring Boot microservices (TDD, DDD, clean code, security, performance, avoiding over-engineering).",
       "version": "1.0.0"
     }
