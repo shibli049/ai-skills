@@ -1,0 +1,7 @@
+# Claude Code session-internal state (not project config)
+/.claude/
+
+# Packaged skill artifact -- regenerate with:
+#   python -m scripts.package_skill spring-boot-service
+# (see the skill-creator plugin's scripts/package_skill.py)
+*.skill
