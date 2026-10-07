@@ -1,0 +1,22 @@
+{
+  "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
+  "name": "ai-skills",
+  "description": "Personal collection of skills for AI coding assistants",
+  "owner": {
+    "name": "shibli049",
+    "email": "shibli05@gmail.com"
+  },
+  "plugins": [
+    {
+      "name": "ai-skills",
+      "description": "Engineering-standards skills for AI coding assistants, starting with Java Spring Boot microservices (TDD, DDD, clean code, security, performance, avoiding over-engineering).",
+      "author": {
+        "name": "shibli049",
+        "email": "shibli05@gmail.com"
+      },
+      "source": "./plugins/ai-skills",
+      "category": "development",
+      "homepage": "https://github.com/shibli049/ai-skills"
+    }
+  ]
+}

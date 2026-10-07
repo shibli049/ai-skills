@@ -1,0 +1,8 @@
+{
+  "name": "ai-skills",
+  "description": "Engineering-standards skills for AI coding assistants, starting with Java Spring Boot microservices (TDD, DDD, clean code, security, performance, avoiding over-engineering).",
+  "author": {
+    "name": "shibli049",
+    "email": "shibli05@gmail.com"
+  }
+}
