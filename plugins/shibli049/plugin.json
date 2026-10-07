@@ -1,0 +1,21 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "shibli049",
+  "description": "Engineering-standards skills for AI coding assistants, starting with Java Spring Boot microservices (TDD, DDD, clean code, security, performance, avoiding over-engineering).",
+  "version": "1.0.0",
+  "author": {
+    "name": "shibli049",
+    "url": "https://github.com/shibli049"
+  },
+  "repository": "https://github.com/shibli049/ai-skills",
+  "license": "MIT",
+  "keywords": [
+    "java",
+    "spring-boot",
+    "tdd",
+    "ddd",
+    "testing",
+    "security",
+    "code-review"
+  ]
+}
