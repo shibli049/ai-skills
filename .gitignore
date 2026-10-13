@@ -5,3 +5,6 @@
 #   python -m scripts.package_skill spring-boot-service
 # (see the skill-creator plugin's scripts/package_skill.py)
 *.skill
+
+# Python bytecode from verification scripts
+__pycache__/

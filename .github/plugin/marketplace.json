@@ -2,7 +2,7 @@
   "name": "ai-skills",
   "metadata": {
     "description": "Personal collection of skills for AI coding assistants",
-    "version": "1.0.0"
+    "version": "1.1.0"
   },
   "owner": {
     "name": "shibli049",
@@ -12,8 +12,8 @@
     {
       "name": "shibli049",
       "source": "plugins/shibli049",
-      "description": "Engineering-standards skills for AI coding assistants, starting with Java Spring Boot microservices (TDD, DDD, clean code, security, performance, avoiding over-engineering).",
-      "version": "1.0.0"
+      "description": "Skills for AI coding assistants: Java Spring Boot engineering standards (TDD, DDD, clean code, security, performance), natural human-sounding writing, and accurate technical docs.",
+      "version": "1.1.0"
     }
   ]
 }
