@@ -22,6 +22,12 @@ Writes and rewrites everyday prose so it reads like a person wrote it: emails, S
 
 Writes and updates technical documentation: READMEs, Confluence pages, wikis, runbooks, ADRs, API references, PR descriptions, commit messages, and changelogs. It reads the project before writing and documents only what the code contains, with no invented commands, config, or features. It applies the same AI-writing rules as `humanize-writing`, but with flexible formatting (headings, tables, admonitions) for reference material. Templates for each doc type are in `references/templates.md`.
 
+### [cv-review](plugins/shibli049/skills/cv-review/SKILL.md)
+
+Reviews a software engineer's CV or resume the way a tech recruiter, a hiring manager, and an ATS would, then writes a scored report with concrete rewrites. It covers missing skills and keywords, weak bullets, seniority signals, market conventions (Sweden/EU, UK, US), fit against a pasted job ad, consistency with LinkedIn and GitHub, and comparisons between CV versions. It is tuned for backend engineers but also handles frontend, support, and lead roles, and consultancy profiles.
+
+When the CV is a PDF or DOCX on disk, it runs `scripts/ats_check.py` to show what an ATS actually extracts. That script needs Python 3 with `pdfplumber` and `python-docx`, plus poppler (`pdftotext`, `pdffonts`) for the font checks. Without them the review still runs and notes that the parse test was skipped.
+
 ## Installing
 
 ### Option A: as a plugin marketplace (recommended)
@@ -88,11 +94,11 @@ The assistant picks it up automatically on the next session — no further regis
 ├── plugins/shibli049/
 │   ├── .claude-plugin/plugin.json       Claude Code plugin manifest
 │   ├── plugin.json                      Copilot CLI plugin manifest
-│   └── skills/<skill-name>/SKILL.md     the actual skills
+│   └── skills/<skill-name>/             the actual skills (SKILL.md, references/, optional scripts/)
 └── verification/scripts/                helper scripts for testing skill output (not part of any skill)
 ```
 
-Skills contain instructions only (`SKILL.md` plus optional `references/*.md`). Tooling used to check their output lives in `verification/scripts/`. For example, `check_ai_patterns.py` flags AI-writing tells in a draft:
+Skills contain instructions (`SKILL.md` plus optional `references/*.md`). A skill may bundle a script under its own `scripts/` folder only when the skill runs it as part of its job, like `cv-review/scripts/ats_check.py`. Tooling used to check a skill's output lives in `verification/scripts/`. For example, `check_ai_patterns.py` flags AI-writing tells in a draft:
 
 ```sh
 python verification/scripts/check_ai_patterns.py draft.md

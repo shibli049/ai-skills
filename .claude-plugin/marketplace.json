@@ -9,7 +9,7 @@
   "plugins": [
     {
       "name": "shibli049",
-      "description": "Skills for AI coding assistants: Java Spring Boot engineering standards (TDD, DDD, clean code, security, performance), natural human-sounding writing, and accurate technical docs.",
+      "description": "Skills for AI coding assistants: Java Spring Boot engineering standards (TDD, DDD, clean code, security, performance), natural human-sounding writing, accurate technical docs, and software engineer CV reviews.",
       "author": {
         "name": "shibli049",
         "email": "shibli05@gmail.com"

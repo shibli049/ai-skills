@@ -8,3 +8,6 @@
 
 # Python bytecode from verification scripts
 __pycache__/
+
+# macOS Finder metadata
+.DS_Store
