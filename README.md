@@ -107,6 +107,10 @@ python verification/scripts/check_ai_patterns.py --doc README.md   # relaxed for
 
 Adding a new skill means dropping another `skills/<name>/SKILL.md` under `plugins/shibli049/` — no manifest changes needed.
 
+## TODO
+
+- Split the single `shibli049` plugin into individual plugins if the skills grow, so people can install only the ones they need. Installing a plugin currently installs every skill in it. A likely grouping: `spring-boot` (`spring-boot-service`), `writing` (`humanize-writing` and `tech-docs`, which share the AI-writing rules), and `cv-review`. Each plugin needs its own folder, manifests, and entries in both `marketplace.json` files. Skill names would lose the `shibli049:` namespace, and existing installs would need to reinstall.
+
 ## License
 
 MIT — see [LICENSE](LICENSE).
