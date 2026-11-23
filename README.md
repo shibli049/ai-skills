@@ -24,7 +24,7 @@ Writes and updates technical documentation: READMEs, Confluence pages, wikis, ru
 
 ### [cv-review](plugins/shibli049/skills/cv-review/SKILL.md)
 
-Reviews a software engineer's CV or resume the way a tech recruiter, a hiring manager, and an ATS would, then writes a scored report with concrete rewrites. It covers missing skills and keywords, weak bullets, seniority signals, market conventions (Sweden/EU, UK, US), fit against a pasted job ad, consistency with LinkedIn and GitHub, and comparisons between CV versions. It is tuned for backend engineers but also handles frontend, support, and lead roles, and consultancy profiles.
+Reviews a software engineer's CV or resume the way a tech recruiter, a hiring manager, and an ATS would, then writes a scored report with concrete rewrites. It covers missing skills and keywords, weak bullets, seniority signals, how the CV shows AI-assisted development (Claude Code, Codex, GitHub Copilot, agent skills, MCP), market conventions (Sweden/EU, UK, US), fit against a pasted job ad, consistency with LinkedIn and GitHub, and comparisons between CV versions. It is tuned for backend engineers but also handles frontend, support, and lead roles, and consultancy profiles.
 
 When the CV is a PDF or DOCX on disk, it runs `scripts/ats_check.py` to show what an ATS actually extracts. That script needs Python 3 with `pdfplumber` and `python-docx`, plus poppler (`pdftotext`, `pdffonts`) for the font checks. Without them the review still runs and notes that the parse test was skipped.
 

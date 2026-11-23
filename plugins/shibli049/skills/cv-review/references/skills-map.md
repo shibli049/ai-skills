@@ -16,6 +16,7 @@ Group into 5–7 lines, most relevant first, e.g.:
 - **Cloud & infra**: Azure (AKS, App Service, Key Vault), Docker, Kubernetes, Terraform, Helm/Kustomize
 - **Practices**: Microservices, DDD, event-driven architecture, TDD, CI/CD (GitHub Actions/Azure DevOps), observability (OpenTelemetry, Prometheus, Grafana, App Insights)
 - **Frontend (working knowledge)**: Angular, React, HTML/CSS
+- **AI-assisted development**: Claude Code (skills, MCP, hooks), GitHub Copilot, OpenAI Codex — only tools they really use; see `ai-workflow.md`
 
 Don't put skill levels as bars. "Working knowledge" or ordering by strength is enough; it also keeps frontend claims honest.
 
@@ -35,4 +36,4 @@ Backend core plus a modern SPA framework in real depth (state management, testin
 
 ## Currently in-demand signals (verify against the job ad; trends shift)
 
-Kubernetes, Terraform/IaC, event-driven (Kafka), observability (OpenTelemetry), cloud cost awareness, security (OAuth2/OIDC, supply-chain), Java 21 / virtual threads, Spring Boot 3, Kotlin, Go, platform engineering, AI/LLM integration in backend services (RAG, calling LLM APIs) — the last is increasingly asked even for non-ML roles; worth mentioning if the user has any real exposure.
+Kubernetes, Terraform/IaC, event-driven (Kafka), observability (OpenTelemetry), cloud cost awareness, security (OAuth2/OIDC, supply-chain), Java 21 / virtual threads, Spring Boot 3, Kotlin, Go, platform engineering, AI/LLM integration in backend services (RAG, tool calling, MCP servers, calling LLM APIs, evals), and AI-assisted development workflow (Claude Code, Codex, GitHub Copilot, agent skills, repo instructions like AGENTS.md). The last two are now asked even for non-ML roles; see `ai-workflow.md` for how to show them with evidence.

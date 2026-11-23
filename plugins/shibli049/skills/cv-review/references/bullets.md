@@ -15,6 +15,7 @@ Variations: XYZ ("Accomplished X as measured by Y by doing Z"), CAR (Challengeâ€
 | "Helped migrate to the cloud" | Vague role | "Led migration of [N] services from on-prem to Azure using Terraform; zero-downtime cutover" |
 | "Improved performance" | No number | "Reduced batch run from 4 h to 25 min by replacing N+1 JPA queries with projections and batch fetching" |
 | "Participated in code reviews" | Expected, low signal | "Introduced review guidelines and ArchUnit checks; reduced production incidents from [X]/quarter to [Y]" |
+| "Used AI tools like ChatGPT and Copilot" | Tool list, no ownership or outcome | "Set up Claude Code and GitHub Copilot for the team with shared AGENTS.md conventions and test-gated agent PRs; cut review rounds per PR from [X] to [Y]" |
 | "Used Angular to build UI" | Frontend undersold or oversold | "Built internal admin UI in Angular for [who], replacing manual SQL support tasks (~[N] h/week saved)" |
 
 ## Backend signal words that hiring managers look for
