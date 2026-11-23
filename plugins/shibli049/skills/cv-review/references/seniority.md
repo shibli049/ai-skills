@@ -27,6 +27,7 @@ If unclear, state the assumption and note what would change for the other readin
 - No non-functional outcomes (reliability, cost, security, scalability).
 - No written artefacts (RFCs, ADRs, architecture docs, talks, blog posts).
 - No mentoring/leadership signal.
+- AI tooling shown only as personal use. At senior+ the reader looks for the person shaping how the team or org works with AI assistants (shared instructions and skills, review guardrails, adoption, governance). See `ai-workflow.md`.
 - Title mismatch: if their title is "Backend Developer" but they did senior/lead work, keep the official title but make the scope obvious in the summary and bullets; optionally "Backend Developer (acting tech lead for payments)" if true.
 
 ## How to report

@@ -1,6 +1,6 @@
 ---
 name: cv-review
-description: Review a software engineer's CV or resume (backend-leaning, with some frontend) the way a tech recruiter, a hiring manager and an ATS would, then give a scored report with concrete rewrites. Covers missing skills and keywords, weak bullets, sections to add or cut, seniority signals (senior, staff, architect), market conventions (Sweden/EU, UK, US, etc.), ATS parseability of the actual PDF/DOCX, fit against a pasted job ad, and consistency with LinkedIn/GitHub, and comparing CV versions. Also handles consultancy consultant profiles (third-person, company-template CVs) and non-backend roles (frontend, support, leads). Use this whenever the user shares or mentions their CV, resume or LinkedIn profile and wants feedback, improvements, a critique, a rating, a keyword check, or asks "is my CV good enough for X", "why am I not getting callbacks", or "tailor my CV to this job", even if they don't say "review".
+description: Review a software engineer's CV or resume (backend-leaning, with some frontend) the way a tech recruiter, a hiring manager and an ATS would, then give a scored report with concrete rewrites. Covers missing skills and keywords, weak bullets, sections to add or cut, seniority signals (senior, staff, architect), how the CV shows modern AI-assisted development (Claude Code, Codex, GitHub Copilot, Cursor, agent skills, MCP) and AI features built into products, market conventions (Sweden/EU, UK, US, etc.), ATS parseability of the actual PDF/DOCX, fit against a pasted job ad, and consistency with LinkedIn/GitHub, and comparing CV versions. Also handles consultancy consultant profiles (third-person, company-template CVs) and non-backend roles (frontend, support, leads). Use this whenever the user shares or mentions their CV, resume or LinkedIn profile and wants feedback, improvements, a critique, a rating, a keyword check, or asks "is my CV good enough for X", "why am I not getting callbacks", or "tailor my CV to this job", even if they don't say "review".
 ---
 
 # CV review for software engineers
@@ -56,6 +56,7 @@ Read it fully, then evaluate against these dimensions. Load the reference files 
 | Experience bullets | Action + scope + tech + measurable result; ownership verbs; no duty lists | `references/bullets.md` |
 | Skills & keywords | Coverage of the expected backend stack for the target role; frontend presented honestly; grouped, not a wall | `references/skills-map.md` |
 | Seniority signals | Does the CV *read* at the target level? | `references/seniority.md` |
+| AI-assisted development | Does the CV show how they work with AI coding assistants and agents (Claude Code, Codex, GitHub Copilot, Cursor; repo instructions, skills, MCP, review guardrails) with evidence, not a tool list? Separately: any AI features they built into products | `references/ai-workflow.md` |
 | Sections | Missing, redundant, or mis-ordered sections | below |
 | Consistency | Dates, titles, tense, spelling, tech names (PostgreSQL not Postgre, Kubernetes not Kubernets) | — |
 
@@ -66,6 +67,10 @@ Typical strong order for an experienced backend engineer: **Header (name, title,
 Recommend cutting or shrinking: "Objective" statements, references ("available on request"), hobbies with no signal, skill-level bars/stars/percentages (unreadable to ATS, meaningless to humans), full addresses, ancient or irrelevant jobs beyond ~10–15 years (collapse into one "Earlier experience" line), soft-skill lists without evidence, and duplicate tech lists inside every job.
 
 Recommend adding when missing and relevant: a real summary, GitHub/portfolio link, a "Selected projects" section for someone with side projects or OSS, certifications that the target market values (e.g. Azure/AWS/CKA), language proficiency (essential in non-English markets), and work authorisation/relocation line where it removes recruiter doubt.
+
+### AI-assisted development
+
+Always check this dimension, even when the user doesn't mention it: hiring managers now ask about it in most engineering interviews, and an empty or buzzword-only CV on this point is a common, easy fix. Read `references/ai-workflow.md` for what good evidence looks like, the terms to use and how to calibrate by level. If the CV says nothing about it, ask the user how they use AI tools at work rather than inventing a bullet. Keep it proportionate: for most roles this is one skills line and one or two strong bullets, not a theme of the whole CV.
 
 ## Step 3 — Optional add-ons
 
@@ -117,6 +122,9 @@ Mark each: "add if you have it" vs "worth learning for the target".
 
 ## Seniority calibration
 <reads as: X. target: Y. what's missing to read as Y.>
+
+## AI-assisted development
+<what the CV shows now (none / tool list / evidence), what a reader at the target level expects, and the concrete wording to add. Separate "how they build with AI tools" from "AI features they built". If nothing is there, the question to ask the user.>
 
 ## Rewrites (paste-ready)
 ### Summary
